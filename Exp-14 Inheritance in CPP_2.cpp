@@ -2,6 +2,7 @@
 //PRN: 24070123082
 //Exp-14
 
+//Multiple Inheritance
 //Program-2
 #include<iostream>
 using namespace std;
@@ -43,3 +44,12 @@ int main(){
     
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+Name: Nishka
+PRN: 82
+Division: A
+Subject: CDS
+Marks: 90
+*/
