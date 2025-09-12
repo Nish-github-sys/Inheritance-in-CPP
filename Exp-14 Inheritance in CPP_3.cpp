@@ -2,6 +2,7 @@
 //PRN: 24070123082
 //Exp-14
 
+//Multilevel Inheritance
 //Program-3
 #include<iostream>
 using namespace std;
@@ -53,3 +54,13 @@ int main(){
 
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+Sales of the company is 100 cr
+Sales Dept.
+Employee Name: Nishka
+Employee ID: 1234
+Employee Salary: 1.23457e+06
+Company Name: XYZ
+*/
