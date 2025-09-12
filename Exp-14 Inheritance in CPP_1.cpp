@@ -32,3 +32,10 @@ int main(){
 
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+No. of Pages: 200
+Price: 500.5
+Name: HarryPotter
+*/
