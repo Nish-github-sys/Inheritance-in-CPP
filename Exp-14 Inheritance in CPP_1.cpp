@@ -2,6 +2,7 @@
 //PRN: 24070123082
 //Exp-14
 
+//Single Inheritance
 //Program-1
 #include<iostream>
 using namespace std;
@@ -39,3 +40,4 @@ No. of Pages: 200
 Price: 500.5
 Name: HarryPotter
 */
+
