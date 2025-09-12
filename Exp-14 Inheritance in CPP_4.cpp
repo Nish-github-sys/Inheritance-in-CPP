@@ -2,7 +2,7 @@
 //PRN: 24070123082
 //Exp-14
 
-//Hybrid Inheritance
+//Hierarchical Inheritance
 //Program-4
 #include<iostream>
 using namespace std;
