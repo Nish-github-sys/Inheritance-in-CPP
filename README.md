@@ -11,8 +11,7 @@ In C++, **inheritance** is a key feature of object-oriented programming that all
 
 -->Types of inheritance in C++:
 
-**1. Single Inheritance:**
-*Single inheritance* in C++ is the simplest form of inheritance where a single derived class inherits from one base class. It allows the derived class to reuse the data members and member functions of the base class, reducing code duplication. With single inheritance, a clear parent-child relationship is formed, making the program easy to understand and maintain. Access specifiers like public, private, and protected define how the base class members are accessible in the derived class.
+**1. Single Inheritance:** *Single inheritance* in C++ is the simplest form of inheritance where a single derived class inherits from one base class. It allows the derived class to reuse the data members and member functions of the base class, reducing code duplication. With single inheritance, a clear parent-child relationship is formed, making the program easy to understand and maintain. Access specifiers like public, private, and protected define how the base class members are accessible in the derived class.
 
 ```
 
