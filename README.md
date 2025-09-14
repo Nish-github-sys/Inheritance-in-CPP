@@ -11,7 +11,7 @@ In C++, **inheritance** is a key feature of object-oriented programming that all
 
 -->Types of inheritance in C++:
 
-**1. Single Inheritance:** *Single inheritance* in C++ is the simplest form of inheritance where a single derived class inherits from one base class. It allows the derived class to reuse the data members and member functions of the base class, reducing code duplication. With single inheritance, a clear parent-child relationship is formed, making the program easy to understand and maintain. Access specifiers like public, private, and protected define how the base class members are accessible in the derived class.
+**1. Single Inheritance:**  *Single inheritance* in C++ is the simplest form of inheritance where a single derived class inherits from one base class. It allows the derived class to reuse the data members and member functions of the base class, reducing code duplication. With single inheritance, a clear parent-child relationship is formed, making the program easy to understand and maintain. Access specifiers like public, private, and protected define how the base class members are accessible in the derived class.
 
 ```
 
@@ -46,8 +46,7 @@ int main() {
 ```
 
 
-**2. Multiple Inheritance:**  
-*Multiple inheritance* in C++ is a type of inheritance where a single derived class inherits from more than one base class. This allows the derived class to combine features and functionalities of multiple classes into one. It promotes **code reusability** but can also lead to ambiguity issues, such as the **Diamond Problem**, when the same member is inherited from more than one base class. C++ resolves such issues using **scope resolution** or **virtual inheritance**. Multiple inheritance is useful when a class logically needs to represent properties of different classes at the same time.
+**2. Multiple Inheritance:**  *Multiple inheritance* in C++ is a type of inheritance where a single derived class inherits from more than one base class. This allows the derived class to combine features and functionalities of multiple classes into one. It promotes **code reusability** but can also lead to ambiguity issues, such as the **Diamond Problem**, when the same member is inherited from more than one base class. C++ resolves such issues using **scope resolution** or **virtual inheritance**. Multiple inheritance is useful when a class logically needs to represent properties of different classes at the same time.
 
 ```
 
@@ -89,8 +88,7 @@ int main() {
 ```
 
 
-**3. Multilevel Inheritance:** 
-*Multilevel inheritance* in C++ is a type of inheritance where a class is derived from another derived class, forming a **chain of inheritance**. The base class passes its properties to the derived class, which then acts as a base class for another class. This helps in **reusing code across multiple levels** and creating a step-by-step hierarchy. It also demonstrates how features can be inherited through multiple generations of classes.
+**3. Multilevel Inheritance:**  *Multilevel inheritance* in C++ is a type of inheritance where a class is derived from another derived class, forming a **chain of inheritance**. The base class passes its properties to the derived class, which then acts as a base class for another class. This helps in **reusing code across multiple levels** and creating a step-by-step hierarchy. It also demonstrates how features can be inherited through multiple generations of classes.
 
 ```
 
