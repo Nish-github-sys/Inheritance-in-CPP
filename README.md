@@ -183,7 +183,7 @@ int main() {
 ## Access Specifiers in Cpp
 In C++, access specifiers control the accessibility of class members (data and functions) from outside the class or in derived classes. There are three main access specifiers: public, private, and protected.
 
-**-->Public:** In C++, **public** members of a class are accessible from anywhere in the program, including outside the class and in derived classes. They can be directly used by objects of the class or its derived classes. Public access allows **free interaction** with class members while maintaining the functionality of the class. It is typically used for functions or data that need to be **accessible by all parts of the program**.
+<h3>-->Public:</h3> In C++, **public** members of a class are accessible from anywhere in the program, including outside the class and in derived classes. They can be directly used by objects of the class or its derived classes. Public access allows **free interaction** with class members while maintaining the functionality of the class. It is typically used for functions or data that need to be **accessible by all parts of the program**.
 
 ```
 
@@ -207,7 +207,7 @@ int main() {
 
 ```
 
-**-->Private:** In C++, **private** members of a class are accessible **only within the class** in which they are declared. They cannot be accessed directly by objects of the class or by derived classes. Private access is used to **restrict direct access** to sensitive data, ensuring **data encapsulation and security**. It helps in controlling how class members are modified or used, typically through public member functions.
+<h3>-->Private:</h3> In C++, **private** members of a class are accessible **only within the class** in which they are declared. They cannot be accessed directly by objects of the class or by derived classes. Private access is used to **restrict direct access** to sensitive data, ensuring **data encapsulation and security**. It helps in controlling how class members are modified or used, typically through public member functions.
 
 ```
 
@@ -240,7 +240,7 @@ int main() {
 
 ```
 
-**-->Protected:** In C++, **protected** members of a class are accessible **within the class** and by its **derived classes**, but not by objects outside the class. Protected access allows derived classes to use and modify base class members while keeping them hidden from the outside world. It provides a balance between **private and public access**, supporting **controlled inheritance** and **data encapsulation**.
+<h3>-->Protected:</h3> In C++, **protected** members of a class are accessible **within the class** and by its **derived classes**, but not by objects outside the class. Protected access allows derived classes to use and modify base class members while keeping them hidden from the outside world. It provides a balance between **private and public access**, supporting **controlled inheritance** and **data encapsulation**.
 
 ```
 
