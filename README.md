@@ -9,7 +9,7 @@ Tools Used: VS Code or Programiz online compiler.
 ## Inheritance in Cpp
 In C++, **inheritance** is a key feature of object-oriented programming that allows a new class, called the derived class, to use the properties and methods of an existing class, called the base class. It promotes **code reusability**, as common features of multiple classes can be defined once in a base class and reused by derived classes. C++ provides different types of inheritance such as single, multiple, multilevel, hierarchical, and hybrid, which help in building complex real-world models. Access specifiers like **public, private, and protected** determine how the base class members are inherited. Inheritance also enables **polymorphism** and **method overriding**, making programs more flexible, extensible, and easier to maintain.
 
-<h3> **-->Types of inheritance in C++:** </h3>
+<h3>-->Types of inheritance in C++: </h3>
 
 **1. Single Inheritance:**  *Single inheritance* in C++ is the simplest form of inheritance where a single derived class inherits from one base class. It allows the derived class to reuse the data members and member functions of the base class, reducing code duplication. With single inheritance, a clear parent-child relationship is formed, making the program easy to understand and maintain. Access specifiers like public, private, and protected define how the base class members are accessible in the derived class.
 
